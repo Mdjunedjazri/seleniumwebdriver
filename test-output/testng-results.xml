@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T12:26:15 IST" name="practice" finished-at="2024-11-25T12:26:15 IST" duration-ms="39">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T12:26:15 IST" name="Priority" finished-at="2024-11-25T12:26:15 IST" duration-ms="39">
+      <class name="TestNGPractice.PriorityExicution">
+        <test-method signature="opneApp()[pri:1, instance:TestNGPractice.PriorityExicution@1b7cc17c]" started-at="2024-11-25T12:26:15 IST" name="opneApp" finished-at="2024-11-25T12:26:15 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opneApp -->
+        <test-method signature="login()[pri:2, instance:TestNGPractice.PriorityExicution@1b7cc17c]" started-at="2024-11-25T12:26:15 IST" name="login" finished-at="2024-11-25T12:26:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:3, instance:TestNGPractice.PriorityExicution@1b7cc17c]" started-at="2024-11-25T12:26:15 IST" name="logout" finished-at="2024-11-25T12:26:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestNGPractice.PriorityExicution -->
+    </test> <!-- Priority -->
+  </suite> <!-- practice -->
+</testng-results>
