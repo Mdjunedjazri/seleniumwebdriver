@@ -15,9 +15,9 @@ public class printing_the_links {
 		driver.get("https://www.goibibo.com/");
 		List<WebElement>links=driver.findElements(By.tagName("a"));
 		System.out.println(links.size());
-		for(WebElement link:links) {
-		 System.out.println( link.);
-		}
+		//for(WebElement link:links) {
+		 //System.out.println( link.);
+		//}
 
 }
 }
