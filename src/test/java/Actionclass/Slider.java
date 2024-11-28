@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class Slider {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		WebDriver d=new ChromeDriver();
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		d.manage().window().maximize();
@@ -22,7 +22,8 @@ public class Slider {
 		Actions ach=new Actions(d);
 		ach.dragAndDropBy(minSlider, 100, 289).perform();
 		System.out.println("Slider Position After action"+minSlider.getLocation());
-		
+		 
+		Thread.sleep(3000);
 		//max Slider
 		WebElement maxSlider=d.findElement(By.xpath("//span[@class='ui-slider-handle ui-corner-all ui-state-default'][2]"));
 		System.out.println("Defoult Position"+maxSlider.getLocation());

@@ -19,7 +19,9 @@ public class HandlingBrokenLink {
 		WebDriver driver =new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
-		driver.get("http://www.deadlinkcity.com/");
+		//driver.get("http://www.deadlinkcity.com/");
+		driver.get("https://www.amazon.in/");
+		
 		//capture all the links 
 		
 		List <WebElement> links=driver.findElements(By.tagName("a"));

@@ -1,16 +1,10 @@
 package ScreenShots;
 
 import java.io.File;
-import java.time.Duration;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ScreenShots {
 	public static void main(String[] args) {
@@ -26,13 +20,13 @@ public class ScreenShots {
 		
 	
 		//1 taking full screenshot
-		/*
+		
 		TakesScreenshot ts=(TakesScreenshot)d;
 		File sourcefile=ts.getScreenshotAs(OutputType.FILE);
 		File targetfile=new File(System.getProperty("user.dir")+"/screenshots/fullpage.png");
 		sourcefile.renameTo(targetfile);
 		
-		*/
+		
 		
 		//2 taking screenshot of specific section 
 		
@@ -42,11 +36,12 @@ public class ScreenShots {
 		sourcefile.renameTo(targetfile);
 		*/
 		
+		/*
 		WebElement logo=d.findElement(By.xpath("//img[@alt='Tricentis Demo Web Shop']"));
 		File sourcefile=logo.getScreenshotAs(OutputType.FILE);
 		File targetfile=new File(System.getProperty("user.dir")+"/screenshots/logo.png");
 		sourcefile.renameTo(targetfile);
-		
+		*/
 				
 				
 	}
