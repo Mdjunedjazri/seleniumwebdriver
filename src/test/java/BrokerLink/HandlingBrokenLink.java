@@ -31,7 +31,8 @@ public class HandlingBrokenLink {
 		
 		for (WebElement link:links) {
 			String linkref=link.getAttribute("href");
-			if (linkref==null || linkref.isEmpty()) {
+			if (linkref==null || linkref.isEmpty()) 
+			{
 				System.out.println("href value is null so not able to check ");
 			continue;
 			}

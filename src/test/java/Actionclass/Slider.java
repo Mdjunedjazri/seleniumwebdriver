@@ -30,6 +30,12 @@ public class Slider {
 		ach.dragAndDropBy(maxSlider, -100, 289).perform();
 		System.out.println("Slider Position After action"+maxSlider.getLocation());
 		
+		
+		
+		//keyboard actions
+		
+	
+		
 	}
 
 }
