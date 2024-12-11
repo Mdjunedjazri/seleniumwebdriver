@@ -26,12 +26,12 @@ public class HandelAndHandels2 {
 		for(int i=0; i<linkCount; i++) {
 			d.findElements(By.tagName("a")).get(i).click();
 			
-		/*Set<String> links=d.getWindowHandles();
-		for(String AllLinks:links)
+		Set<String> links1=d.getWindowHandles();
+		for(String AllLinks:links1)
 		{
 			
 		}
-		System.out.println(links);  */
+		System.out.println(links1);  
 	}
 	}
 }

@@ -23,7 +23,7 @@ public class ScreenShots {
 		
 		TakesScreenshot ts=(TakesScreenshot)d;
 		File sourcefile=ts.getScreenshotAs(OutputType.FILE);
-		File targetfile=new File(System.getProperty("user.dir")+"/screenshots/fullpage.png");
+		File targetfile=new File(System.getProperty("user.dir")+"/screenshots/fullpage1.png");
 		sourcefile.renameTo(targetfile);
 		
 		
