@@ -20,7 +20,7 @@ public class shadowDom {
 	JavascriptExecutor js =(JavascriptExecutor)driver;
 	WebElement jse=(WebElement)js.executeScript("document.querySelector(\"#userName\").shadowRoot.querySelector(\"#app2\").shadowRoot.querySelector(\"#pizza\")" );
 	
-	String s="argument[0].setAttributevalue('value', 'Masala Tea')";
+	String s="argument[0].setAttributevalue('value', 'Masala Teae')";
 	js.executeAsyncScript(s, jse);
 }
 }

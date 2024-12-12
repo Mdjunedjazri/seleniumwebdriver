@@ -38,13 +38,13 @@ public class HandelShadowRoot {
 		WebElement shadowElement = shadowRoot.findElement(By.cssSelector("shadowElement")); 
 		*/
 		
-		
+		/*
 		WebElement shadowHost = d.findElement(By.cssSelector("#userName"));
 		WebElement shadowRoot = (WebElement) ((JavascriptExecutor) d).executeScript("return arguments[0].shadowRoot", shadowHost);
 		WebElement shadowElement = shadowRoot.findElement(By.cssSelector("shadowElement"));
 		
 		shadowElement.sendKeys("hello");
-		
+		*/
 	}
 
 }
