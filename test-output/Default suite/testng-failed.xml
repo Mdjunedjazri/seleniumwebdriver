@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGPractice.paralleTesting">
+      <class name="TestNGPractice.DependentMethods">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="testlogo"/>
-          <include name="setup"/>
+          <include name="login"/>
+          <include name="openApp"/>
+          <include name="AdvanceSearch"/>
+          <include name="logout"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- TestNGPractice.paralleTesting -->
+      </class> <!-- TestNGPractice.DependentMethods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

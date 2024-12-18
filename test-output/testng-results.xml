@@ -1,25 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-25T12:26:15 IST" name="practice" finished-at="2024-11-25T12:26:15 IST" duration-ms="39">
+  <suite started-at="2024-12-18T18:08:15 IST" name="Suite" finished-at="2024-12-18T18:08:16 IST" duration-ms="58">
     <groups>
+      <group name="functional">
+        <method signature="GroupingTestCase_1.loginFB()[pri:1, instance:TestNGPractice.GroupingTestCase_1@3349e9bb]" name="loginFB" class="TestNGPractice.GroupingTestCase_1"/>
+        <method signature="GroupingTestCase_2.sigupIG()[pri:3, instance:TestNGPractice.GroupingTestCase_2@55183b20]" name="sigupIG" class="TestNGPractice.GroupingTestCase_2"/>
+        <method signature="GroupingTestCase_3.paymentinRupee()[pri:1, instance:TestNGPractice.GroupingTestCase_3@3c19aaa5]" name="paymentinRupee" class="TestNGPractice.GroupingTestCase_3"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="GroupingTestCase_1.loginFB()[pri:1, instance:TestNGPractice.GroupingTestCase_1@3349e9bb]" name="loginFB" class="TestNGPractice.GroupingTestCase_1"/>
+        <method signature="GroupingTestCase_1.loginIG()[pri:2, instance:TestNGPractice.GroupingTestCase_1@3349e9bb]" name="loginIG" class="TestNGPractice.GroupingTestCase_1"/>
+        <method signature="GroupingTestCase_2.sigupIG()[pri:3, instance:TestNGPractice.GroupingTestCase_2@55183b20]" name="sigupIG" class="TestNGPractice.GroupingTestCase_2"/>
+        <method signature="GroupingTestCase_2.singupYT()[pri:2, instance:TestNGPractice.GroupingTestCase_2@55183b20]" name="singupYT" class="TestNGPractice.GroupingTestCase_2"/>
+        <method signature="GroupingTestCase_3.paymentinRiyal()[pri:3, instance:TestNGPractice.GroupingTestCase_3@3c19aaa5]" name="paymentinRiyal" class="TestNGPractice.GroupingTestCase_3"/>
+        <method signature="GroupingTestCase_3.paymentinRupee()[pri:1, instance:TestNGPractice.GroupingTestCase_3@3c19aaa5]" name="paymentinRupee" class="TestNGPractice.GroupingTestCase_3"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="GroupingTestCase_1.loginFB()[pri:1, instance:TestNGPractice.GroupingTestCase_1@3349e9bb]" name="loginFB" class="TestNGPractice.GroupingTestCase_1"/>
+        <method signature="GroupingTestCase_2.sigupIG()[pri:3, instance:TestNGPractice.GroupingTestCase_2@55183b20]" name="sigupIG" class="TestNGPractice.GroupingTestCase_2"/>
+        <method signature="GroupingTestCase_3.paymentinRupee()[pri:1, instance:TestNGPractice.GroupingTestCase_3@3c19aaa5]" name="paymentinRupee" class="TestNGPractice.GroupingTestCase_3"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-11-25T12:26:15 IST" name="Priority" finished-at="2024-11-25T12:26:15 IST" duration-ms="39">
-      <class name="TestNGPractice.PriorityExicution">
-        <test-method signature="opneApp()[pri:1, instance:TestNGPractice.PriorityExicution@1b7cc17c]" started-at="2024-11-25T12:26:15 IST" name="opneApp" finished-at="2024-11-25T12:26:15 IST" duration-ms="11" status="PASS">
+    <test started-at="2024-12-18T18:08:15 IST" name="Test" finished-at="2024-12-18T18:08:16 IST" duration-ms="58">
+      <class name="TestNGPractice.GroupingTestCase_1">
+        <test-method signature="loginFB()[pri:1, instance:TestNGPractice.GroupingTestCase_1@3349e9bb]" started-at="2024-12-18T18:08:16 IST" name="loginFB" finished-at="2024-12-18T18:08:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- opneApp -->
-        <test-method signature="login()[pri:2, instance:TestNGPractice.PriorityExicution@1b7cc17c]" started-at="2024-11-25T12:26:15 IST" name="login" finished-at="2024-11-25T12:26:15 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- loginFB -->
+        <test-method signature="loginIG()[pri:2, instance:TestNGPractice.GroupingTestCase_1@3349e9bb]" started-at="2024-12-18T18:08:16 IST" name="loginIG" finished-at="2024-12-18T18:08:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="logout()[pri:3, instance:TestNGPractice.PriorityExicution@1b7cc17c]" started-at="2024-11-25T12:26:15 IST" name="logout" finished-at="2024-11-25T12:26:15 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- loginIG -->
+      </class> <!-- TestNGPractice.GroupingTestCase_1 -->
+      <class name="TestNGPractice.GroupingTestCase_2">
+        <test-method signature="singupYT()[pri:2, instance:TestNGPractice.GroupingTestCase_2@55183b20]" started-at="2024-12-18T18:08:15 IST" name="singupYT" finished-at="2024-12-18T18:08:16 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- TestNGPractice.PriorityExicution -->
-    </test> <!-- Priority -->
-  </suite> <!-- practice -->
+        </test-method> <!-- singupYT -->
+        <test-method signature="sigupIG()[pri:3, instance:TestNGPractice.GroupingTestCase_2@55183b20]" started-at="2024-12-18T18:08:16 IST" name="sigupIG" finished-at="2024-12-18T18:08:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sigupIG -->
+      </class> <!-- TestNGPractice.GroupingTestCase_2 -->
+      <class name="TestNGPractice.GroupingTestCase_3">
+        <test-method signature="paymentinRupee()[pri:1, instance:TestNGPractice.GroupingTestCase_3@3c19aaa5]" started-at="2024-12-18T18:08:16 IST" name="paymentinRupee" finished-at="2024-12-18T18:08:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinRupee -->
+        <test-method signature="paymentinRiyal()[pri:3, instance:TestNGPractice.GroupingTestCase_3@3c19aaa5]" started-at="2024-12-18T18:08:16 IST" name="paymentinRiyal" finished-at="2024-12-18T18:08:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinRiyal -->
+      </class> <!-- TestNGPractice.GroupingTestCase_3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

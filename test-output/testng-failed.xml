@@ -1,46 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="edge(failed)">
-    <parameter name="browser" value="edge"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGPractice.paralleTesting">
+      <class name="TestNGPractice.DependentMethods">
         <methods>
-          <include name="pageTile"/>
-          <include name="closeBrowser"/>
-          <include name="testlogo"/>
-          <include name="testUrl"/>
-          <include name="setup"/>
+          <include name="login"/>
+          <include name="openApp"/>
+          <include name="AdvanceSearch"/>
+          <include name="logout"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- TestNGPractice.paralleTesting -->
+      </class> <!-- TestNGPractice.DependentMethods -->
     </classes>
-  </test> <!-- edge(failed) -->
-  <test thread-count="5" parallel="tests" name="firefox(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="TestNGPractice.paralleTesting">
-        <methods>
-          <include name="pageTile"/>
-          <include name="closeBrowser"/>
-          <include name="testlogo"/>
-          <include name="testUrl"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- TestNGPractice.paralleTesting -->
-    </classes>
-  </test> <!-- firefox(failed) -->
-  <test thread-count="5" parallel="tests" name="chrome(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="TestNGPractice.paralleTesting">
-        <methods>
-          <include name="pageTile"/>
-          <include name="closeBrowser"/>
-          <include name="testlogo"/>
-          <include name="testUrl"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- TestNGPractice.paralleTesting -->
-    </classes>
-  </test> <!-- chrome(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
